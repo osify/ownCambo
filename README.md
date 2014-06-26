@@ -28,6 +28,7 @@ Structure - ownCambo
 The folder: 
 - "design" is about the resource that we need to change		
 - Place the logos you change in folder: ownCambo/core/img  
+- To convert your logo to format SVG, please use Adobe Illustrator
 
 
 Settings file: config.php
