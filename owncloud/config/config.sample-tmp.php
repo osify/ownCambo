@@ -15,7 +15,7 @@ $CONFIG = array (
   'dbuser' => 'root',
   'dbpassword' => '',
   'installed' => true,
-  'maxZipInputSize' => 838860800,
-  'allowZipDownload' => true,
-  "theme" => "ownCambo",
+  'theme' => 'ownCambo',
+  'maintenance' => false,
+  'share_folder' => '/Shared',
 );

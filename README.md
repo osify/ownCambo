@@ -44,15 +44,24 @@ $CONFIG = array (
   ),
   'datadirectory' => '/home/owncloud',
   'dbtype' => 'mysql',
-  'version' => '6.0.3.1',
+  'version' => '7.0.3.4',
   'dbname' => 'owndb',
   'dbhost' => 'localhost',
   'dbtableprefix' => 'oc_',
   'dbuser' => 'root',
   'dbpassword' => '',
   'installed' => true,
-  'maxZipInputSize' => 838860800,
-  'allowZipDownload' => true,
-  "theme" => "ownCambo",
+  'theme' => 'ownCambo',
+  'maintenance' => false,
+  'share_folder' => '/Shared',
 );
 ````````
+
+Change logs
+##################################
+ownCloud 2.0-beta
+- ownCloud version 7.0.x
+- Update background to green style
+
+ownCloud 1.0
+- ownCloud version 6.x
