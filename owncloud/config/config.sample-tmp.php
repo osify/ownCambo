@@ -8,7 +8,7 @@ $CONFIG = array (
   ),
   'datadirectory' => '/home/owncloud',
   'dbtype' => 'mysql',
-  'version' => '6.0.3.1',
+  'version' => '7.0.3.4',
   'dbname' => 'owndb',
   'dbhost' => 'localhost',
   'dbtableprefix' => 'oc_',

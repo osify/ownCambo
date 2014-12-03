@@ -1,0 +1,53 @@
+/* prevent ugly selection effect on accidental selection */
+#header,
+#navigation,
+#expanddiv {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+
+
+/* HEADERS ------------------------------------------------------------------ */
+#body-user #header, #body-settings #header { 
+	position:fixed; 
+	top:0; 
+	z-index:100; 
+	width:100%; 
+	height:auto; 
+	padding:0; 
+	background:#16a085; 
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, .5), inset 0 -2px 10px #222; 
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5), inset 0 -2px 10px #222; 
+	box-shadow:0 0 10px rgba(0, 0, 0, .5), inset 0 -2px 10px #222; 
+}
+
+
+/* LOGO and APP NAME -------------------------------------------------------- */
+#owncloud { float:left; }
+
+#header .logo {
+	background-image: url(../img/logo.svg);
+	background-repeat: no-repeat;
+	width: 252px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+#header .logo-wide {
+	background-image: url(../img/logo-wide.svg);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 34px;
+}
+
+#header .logo-icon {
+	/* display logo so appname can be shown next to it */
+	display: inline-block;
+	background-image: url(../img/logo-icon.svg);
+	background-repeat: no-repeat;
+	width: 62px;
+	height: 34px;
+}
+
